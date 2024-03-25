@@ -1,0 +1,22 @@
+{
+  "name": "servercrud",
+  "version": "1.0.0",
+  "description": "servidor de crud exemplo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "author": "AndreDias",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "http": "^0.0.1-security",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "prisma": "^5.11.0"
+  }
+}
